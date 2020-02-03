@@ -1,0 +1,20 @@
+<section id="sms-section">
+    {{#each errorMessages }}
+    <div class="errors">
+        {{this}}
+    </div>
+    {{/each}}
+    <form action="/sendText" method="POST">
+    <lable for="phoneNumber">Enter your phone Number</lable>
+    <input type="phoneNumber" id="phoneNo" name="phoneNo">
+    <br><br>
+
+    <lable for="message">Message</lable>
+    <textarea id="message" name="message"></textarea>
+    <br><br>
+    <input type="submit" value="send message">
+    </form>
+    <!--+12565883235-->
+    <!--AC4244f5518b3bb86bb7982b6cfb7b4e43-->
+    <!--1f1a97a23c0c4a16af888339fb16558f-->
+</section>
